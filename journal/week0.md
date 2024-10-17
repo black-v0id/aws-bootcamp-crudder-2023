@@ -1,5 +1,5 @@
 # Week 0 — Billing and Architecture
-Iron Triabgle: cost (cheap), time (fast), scope (good)
+Iron Triangle: cost (cheap), time (fast), scope (good)
 ## Good Architecture
 Requirements - Risks - Assumptions - Constraints
 
@@ -27,4 +27,18 @@ Actual plans to be built. Ex: IP address of EC2 instance, ARN of API gateway, AR
 
 ## Build a Vernacular
 Develop a common dictionary that can be used during the project. 
-- Ask dumb questions 
+- Ask dumb questions: how are we getting this done with 2 resources? how do we achieve OS patching security if we cannnot disturb the end user? 
+- play be the packet: pretend you are the data being slinged around the environemnt
+- document everything
+
+## Architecture Frameworks
+Others: Federal Enterprise Architecture Framework (FEAF), Department of Defense Architecture Framework (DoDAF), Google Cloud, NIST Enterprise Architecture Model, C4 model, Zachman. 
+
+### TOGAF
+The Open Group Architecture Framework (TOGAF) is the most used frameworks. 
+
+### AWS Well-Architected
+Review workloads against current AWS best practice. Compares against AWS 6 pillars: operational excellency, securty, reliability, preformance efficiency, cost optimization, sustainability. 
+Use Well Architected Tool to build out. 
+
+
